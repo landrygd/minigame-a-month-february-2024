@@ -254,7 +254,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5117784035210197,
+        "zoomFactor": 0.4481978045410386,
         "windowMask": false
       },
       "objectsGroups": [
@@ -872,13 +872,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 64,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "62ca6b6b-6fb2-44af-ab9c-8084844a1b20",
-          "width": 416,
+          "width": 288,
           "x": 512,
-          "y": -1568,
+          "y": -1504,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -894,7 +894,7 @@
           "persistentUuid": "457f365c-cf5d-4ec7-aa49-ed593a928e77",
           "width": 96,
           "x": 160,
-          "y": -1664,
+          "y": -1632,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -904,13 +904,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 64,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "0c9c35cb-dfb4-4f6a-8cf4-3416cf27ad05",
           "width": 288,
           "x": 64,
-          "y": -1504,
+          "y": -1440,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -926,7 +926,7 @@
           "persistentUuid": "994633cf-3c2f-4387-8dc1-0d3468acca3c",
           "width": 288,
           "x": 256,
-          "y": -1632,
+          "y": -1568,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1378,38 +1378,6 @@
           "x": 288,
           "y": -832,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "layer": "",
-          "name": "hflip_side",
-          "persistentUuid": "09c3a60a-b489-4b6e-b4e8-a49e1bcfaf30",
-          "width": 32,
-          "x": 416,
-          "y": -1440,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "layer": "",
-          "name": "hflip_side2",
-          "persistentUuid": "b64e3c3e-9fe5-4aab-a3af-be8adcc856be",
-          "width": 32,
-          "x": 416,
-          "y": -1344,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2781,6 +2749,30 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "PlayerSprite",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2791,7 +2783,6 @@
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
@@ -2835,7 +2826,6 @@
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
@@ -2912,8 +2902,13 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+<<<<<<< Updated upstream
       "mangledName": "Prout",
       "name": "Prout",
+=======
+      "mangledName": "Test",
+      "name": "Test",
+>>>>>>> Stashed changes
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -2936,7 +2931,10 @@
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
+<<<<<<< Updated upstream
           "cameraType": "",
+=======
+>>>>>>> Stashed changes
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
