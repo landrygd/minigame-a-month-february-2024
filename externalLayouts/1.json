@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "Untitled scene",
+  "associatedLayout": "Main",
   "name": "1",
   "instances": [
     {
@@ -116,13 +116,12 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "name": "hflip_base",
       "persistentUuid": "c9ec45dd-d4e7-4f04-8d8d-8c0b2643e0b4",
-      "width": 128,
+      "width": 0,
       "x": 576,
       "y": 352,
       "zOrder": 3,
@@ -156,36 +155,6 @@
       "x": 704,
       "y": 352,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "hflip_side2",
-      "persistentUuid": "ee83d3f6-5142-4ce5-83a7-57feebe60d29",
-      "width": 0,
-      "x": 544,
-      "y": 352,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "hflip_side2",
-      "persistentUuid": "835bb2cf-e809-4c51-888a-47d1208adac8",
-      "width": 0,
-      "x": 704,
-      "y": 288,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

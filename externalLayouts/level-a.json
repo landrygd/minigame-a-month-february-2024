@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "Untitled scene",
+  "associatedLayout": "Main",
   "name": "Level A",
   "instances": [
     {
@@ -126,6 +126,36 @@
       "x": 736,
       "y": 0,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "hflip_base",
+      "persistentUuid": "af2d687d-393b-48a2-81a3-48297581eddb",
+      "width": 0,
+      "x": 672,
+      "y": 384,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "hflip_side",
+      "persistentUuid": "bf842aed-3873-4f4f-a230-a90390f83657",
+      "width": 0,
+      "x": 768,
+      "y": 320,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
